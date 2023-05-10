@@ -1,0 +1,107 @@
+body {
+    background: linear-gradient(to right, #27486f, #3f1089);
+    animation: background-animation 10s ease-in-out infinite alternate;
+  }
+  
+  @keyframes background-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+  }
+  
+  .payment-options {
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(to right, #27486f, #3f1089);
+    animation: background-animation 10s ease-in-out infinite alternate;
+  }
+  
+  .payment-options .option {
+    margin-top: 60px;
+    background: linear-gradient(to right, #af16d1, #f60481);
+    animation: background-animation 10s ease-in-out infinite alternate;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(198, 23, 23, 0.15);
+  }
+  
+  .payment-options .option:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  }
+  
+  .payment-options h2 {
+    text-decoration: none;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .payment-options p {
+    text-decoration: none;
+    margin-bottom: 20px;
+  }
+  
+  .payment-options .form-row {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  
+  .payment-options label {
+    font-weight: bold;
+  }
+  
+  .payment-options input {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    margin-top: 5px;
+  }
+  
+    
+      /* Footer styles */
+      footer {
+        background-color: #f2f2f2;
+        color: #333;
+        padding: 20px;
+        text-align: center;
+        font-size: 1.2rem;
+        margin-top: 50px;
+      }
+      
+      footer p {
+        margin: 0;
+      }
+      
+      footer a {
+        color: #333;
+        text-decoration: none;
+      }
+      
+      footer a:hover {
+        text-decoration: underline;
+      }
+      
+      .payment-options .submit-btn {
+        background-color: #2196F3;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s ease-in-out;
+      }
+      
+      .payment-options .submit-btn:hover {
+        background-color: #b7c6d5;
+      }
+      
+    
+    
+      

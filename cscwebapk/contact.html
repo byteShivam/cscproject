@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event Website Contact</title>
+    <link rel="stylesheet" href="indexstyle.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div id="logo">
+          <img src="img\csc logo.png" alt="CSC Logo" />
+        </div>
+        <nav>
+          <h2>
+            <ul class="navmenu" id="navmenu">
+              <li><a href="index.html" class="navlink">Home</a></li>
+              <li><a href="events.html" class="navlink">Events</a></li>
+              <li><a href="video.html" class="navlink">Videos</a></li>
+              <li><a href="merchandise.html" class="navlink">Tickets</a></li>
+              <li><a href="about.html" class="navlink">About</a></li>
+              <li><a href="contact.html" class="navlink">Contact</a></li>
+            </ul>
+          </h2>
+        </nav>        
+      </div>
+    </header>
+    <main><section id="contact">
+      <div class="containe">
+        <h2>Contact Us</h2>
+        <form action="#" method="POST" id="contact-form">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <button type="submit" id="submitbtn">Send Message</button>
+        </form>
+        <div class="message-containe">
+          <p id="message"></p>
+        </div>
+      </div>
+    </section>
+    
+    </main>
+    <footer>
+      <!DOCTYPE html>
+      <html lang="en">
+        <head>
+          <meta charset="UTF-8" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+          <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+          <title>footer</title>
+          <link rel="stylesheet" href="style.css" />
+        </head>
+        <body>
+          <footer>
+            <div class="container">
+              <div class="footer-info">
+                <h2>Address</h2>
+                <br>
+                <p>Chandrabhan Sharma College of Arts, Commerce and Science</p>
+                <p>Powai Vihar, Powai, Mumbai-400 076</p>
+                <p>Tel: 022-45266020 / +91 7738776505</p>
+                <p>Email: info@cscollege.co.in</p>
+              </div>
+              <div class="gmap">
+                <h2>GOOGLE MAP</h2>
+                <br>
+                <li>
+                  <a href="https://goo.gl/maps/EVNj3dW1W7b3JYbr8" target="_blank">
+                    <img src="img/IMG_20230509_125808.jpg"  />
+                  </a>
+                </li>
+              </div>
+              <div class="footer-social">
+                
+                <ul>
+                  <li><a href="#"><img src="img/facebook.png" />Facebook</a></li>
+                  <li><a href="#"><img src="img/twitter.png" />Twitter</a></li>
+                  <li><a href="#"><img src="img/instagram.png" />Instagram</a></li>
+                  <li><a href="#"><img src="img/linkedin.png" />Linkedin</a></li>
+                </ul>
+              </div>
+              <p>&copy; 2023 Shivam Mishra</p>
+            </div>
+            </footer>
+        </body>
+      </html>
+
+
+    </footer>
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+    <script src="contact.js"></script>
+    
+  </body>
+</html>
